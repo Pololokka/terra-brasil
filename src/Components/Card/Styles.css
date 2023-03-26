@@ -1,0 +1,26 @@
+.card__container {
+  background-color: var(--cor-card-1);
+  box-shadow: -6px 6px var(--cor-card-2);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 90vh;
+  transition: 200ms;
+}
+
+.card__container:hover {
+  width: 50%;
+}
+
+.show {
+  display: block;
+  transition: 2000ms;
+}
+
+.hide {
+  display: none;
+  transition: 2000ms;
+}

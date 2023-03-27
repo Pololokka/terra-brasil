@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 20%;
+  width: 20vw;
   height: 90vh;
   transition: 200ms;
 }
@@ -27,15 +27,5 @@
 }
 
 .card__container:hover {
-  width: 50%;
-}
-
-.show {
-  display: block;
-  transition: 2000ms;
-}
-
-.hide {
-  display: none;
-  transition: 2000ms;
+  width: 70%;
 }

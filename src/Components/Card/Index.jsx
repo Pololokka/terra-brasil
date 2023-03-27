@@ -1,8 +1,10 @@
 import "./Styles.css";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
-const Card = ({ title, text, className }) => {
+const Card = ({ title, textPath, className }) => {
   const [hover, setHover] = useState(false);
+  const { t } = useTranslation();
 
   return (
     <div
@@ -11,7 +13,7 @@ const Card = ({ title, text, className }) => {
       onMouseLeave={() => setHover(false)}
     >
       <h3 className="subtitulo subtitulo-hover">{title}</h3>
-      {hover && <p className="texto">{text}</p>}
+      {hover && <p className="texto">{t(textPath)}</p>}
     </div>
   );
 };

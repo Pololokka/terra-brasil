@@ -2,7 +2,7 @@
 
 # Terra Brasil
 
-Terra Brasil
+Página trilíngue que apresenta cidades de estados brasileiros
 
 ## Tecnologias
 
@@ -15,7 +15,7 @@ Terra Brasil
 
 ### Home
 
-Página onde o usuário realiza suas interações
+Página onde o são dispostos cards indicando o nome de uma cidade em um estado brasileiro. Ao passar o mouse por cima do card, o mesmo expande, apresentando as informações na língua escolhida.
 
 ## Sobre
 

@@ -23,6 +23,13 @@ const Changer = () => {
       >
         Inglês
       </p>
+
+      <p
+        className="subtitulo subtitulo-hover"
+        onClick={() => handleChangeLang("es")}
+      >
+        Espanhol
+      </p>
     </div>
   );
 };

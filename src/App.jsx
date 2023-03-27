@@ -1,7 +1,7 @@
 import "./App.css";
 
 import Card from "./Components/Card/Index";
-import Changer from "./Components/Changer";
+import Changer from "./Components/Changer/Index";
 
 function App() {
   return (
